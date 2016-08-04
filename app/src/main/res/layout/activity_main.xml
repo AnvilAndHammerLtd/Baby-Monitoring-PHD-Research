@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	style="@style/custom_parent_layout"
+    tools:context=".MainActivity" >
+    
+
+   
+   
+   
+    <!--  
+   <FrameLayout 
+       	android:id="@+id/frame2"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame1"
+        android:layout_marginTop="15dp">
+
+    <ImageView
+        android:id="@+id/btnImgQuestion2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="gg"
+        android:onClick="btnQuestions"
+        android:src="@drawable/box1" />
+
+    <TextView
+	    android:id="@+id/btnQuestion2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	   	android:text="@string/btn_question_1"
+	    android:textSize="20sp"
+	    android:textStyle="bold"
+	    android:gravity="center"
+	    android:textColor="#FFFFFF"
+	    android:layout_marginLeft="15dp"
+	    android:layout_marginRight="15dp"
+	    android:layout_marginTop="35dp"
+	   	android:textAppearance="?android:attr/textAppearanceLarge" />
+	</FrameLayout>
+    -->
+    
+    
+    
+    
+    
+    <!-- 
+    
+    
+    <Button
+        android:id="@+id/btnQuestion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        android:background ="#90676767"
+        android:textColor="#FFFFFF"
+        android:text="@string/btn_question_1"
+        android:onClick="btnQuestions"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnQuestion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnQuestion1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="17sp"
+        android:background ="#90676767"
+        android:textColor="#FFFFFF"
+        android:text="@string/btn_question_2"
+        android:onClick="btnQuestions"
+        android:textStyle="bold" />
+    
+ -->
+    <Button
+        android:id="@+id/btnStartStopTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textStyle="bold" />
+<!-- android:onClick="startStopTimer"
+
+    android:background="@drawable/bg"
+
+
+ -->
+</RelativeLayout>

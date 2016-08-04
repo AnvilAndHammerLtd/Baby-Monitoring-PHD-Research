@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	style="@style/custom_parent_layout"
+    tools:context=".QuestionsSetLastActivity" >
+
+    <!-- Question 1 -->
+   <FrameLayout 
+       	android:id="@+id/frame1"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp">
+    <TextView
+	    android:id="@+id/questionLast"
+	   	android:text="@string/btn_question_last"
+	    style="@style/question_textView"
+	   	android:textAppearance="?android:attr/textAppearanceLarge" />
+    </FrameLayout>
+    
+   <!-- Answers -->
+   <FrameLayout 
+       	android:id="@+id/frame2"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frame1"
+        android:layout_marginTop="10dp">
+    <ImageView
+        android:id="@+id/btnImgAnswerLastA"
+	    style="@style/answer_imageView"
+        android:src="@drawable/box1" />
+    <TextView
+	   	android:text="@string/answer_last_a"	   	
+	   	style="@style/answer_textView"
+	   	android:textAppearance="?android:attr/textAppearanceLarge" />
+	</FrameLayout>
+   
+   <FrameLayout 
+       	android:id="@+id/frame3"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frame2"
+        android:layout_marginTop="5dp">
+    <ImageView
+        android:id="@+id/btnImgAnswerLastB"
+	    style="@style/answer_imageView"
+        android:src="@drawable/box1" />
+    <TextView
+	   	android:text="@string/answer_last_b"
+	   	style="@style/answer_textView"
+	   	android:textAppearance="?android:attr/textAppearanceLarge" />
+	</FrameLayout>
+	
+   <FrameLayout 
+       	android:id="@+id/frame4"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frame3"
+        android:layout_marginTop="5dp">
+    <ImageView
+        android:id="@+id/btnImgAnswerLastC"
+	    style="@style/answer_imageView"
+        android:src="@drawable/box1" />
+    <TextView
+	   	android:text="@string/answer_last_c"
+	   	style="@style/answer_textView"
+	   	android:textAppearance="?android:attr/textAppearanceLarge" />
+	</FrameLayout>
+   
+   <FrameLayout 
+       	android:id="@+id/frame5"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frame4"
+        android:layout_marginTop="5dp">
+    <ImageView
+        android:id="@+id/btnImgAnswerLastD"
+	    style="@style/answer_imageView"
+        android:src="@drawable/box1" />
+    <TextView
+	   	android:text="@string/answer_last_d"
+	   	style="@style/answer_textView"
+	   	android:textAppearance="?android:attr/textAppearanceLarge" />
+	</FrameLayout>
+   
+</RelativeLayout>

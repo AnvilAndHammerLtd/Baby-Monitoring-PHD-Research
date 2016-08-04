@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Phd Research</string>
+    <string name="action_settings">Edit Timer</string>
+    <string name="btn_question_1">1. In the last 5 minutes was your baby mostly:</string>
+    <string name="answer_q1a">a. Asleep</string>
+    <string name="answer_q1b">b. Awake and content</string>
+    <string name="answer_q1c">c. Fussy</string>
+    <string name="answer_q1d">d. Crying</string>
+    <string name="answer_q1e">e. Crying unsoothably</string>
+    <string name="answer_q1f">f. Feeding</string>
+    <string name="btn_question_2">2. Did the last 5 minutes feature any of these caregiving activities</string>
+    <string name="answer_q2a">a. Holding/carrying</string>
+    <string name="answer_q2b">b. Playing/talking</string>
+    <string name="answer_q2c">c. Soothing</string>
+    <string name="answer_q2d">d. Caring (changing, dressing, bathing)</string>
+    <string name="answer_q2e">e. None of these caregiving activities</string>
+    <string name="title_activity_questions_set1">QuestionsSet1Activity</string>
+    <string name="title_activity_questions_set2">QuestionsSet2Activity</string>
+    <string name="title_activity_questions_set_last">QuestionsSetLastActivity</string>
+    <string name="btn_question_last">Were any other caregivers other than the mother</string>
+    <string name="answer_last_a">a. Father</string>
+    <string name="answer_last_b">b. Mother</string>
+    <string name="answer_last_c">c. Gradma</string>
+    <string name="answer_last_d">d. Other</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>
